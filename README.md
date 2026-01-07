@@ -2,7 +2,7 @@
 
 [English](README.en.md) | **한국어** | [日本語](README.ja.md)
 
-웹 페이지에 커스텀 CSS와 JavaScript를 주입할 수 있는 크롬 확장 프로그램입니다.
+웹 페이지에 커스텀 CSS와 JavaScript를 적용할 수 있는 크롬 확장 프로그램입니다.
 
 ## 주요 기능
 

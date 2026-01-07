@@ -2,7 +2,7 @@
 
 [English](README.en.md) | [한국어](README.md) | **日本語**
 
-ウェブページにカスタムCSSとJavaScriptを注入できるChrome拡張機能です。
+ウェブページにカスタムCSSとJavaScriptを適用できるChrome拡張機能です.
 
 ## 主な機能
 

@@ -2,7 +2,7 @@
 
 [English](README.en.md) | [한국어](README.md) | [日本語](README.ja.md)
 
-A Chrome extension that allows you to inject custom CSS and JavaScript into web pages.
+A Chrome extension that allows you to apply custom CSS and JavaScript into web pages.
 
 ## Key Features
 

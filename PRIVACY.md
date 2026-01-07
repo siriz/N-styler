@@ -63,7 +63,7 @@ If you have questions about this Privacy Policy, please create an issue on our G
 
 ## 개요
 
-N-Styler는 사용자가 웹사이트에 커스텀 CSS와 JavaScript를 주입할 수 있는 브라우저 확장 프로그램입니다. 우리는 사용자의 개인정보 보호를 최우선으로 합니다.
+N-Styler는 사용자가 웹사이트에 커스텀 CSS와 JavaScript를 적용할 수 있는 브라우저 확장 프로그램입니다. 우리는 사용자의 개인정보 보호를 최우선으로 합니다.
 
 ## 데이터 수집
 
@@ -98,13 +98,15 @@ N-Styler는 기능 수행을 위해 특정 브라우저 권한이 필요합니�
 |------|------|
 | `storage` | 커스텀 CSS/JS 코드를 로컬에 저장 |
 | `activeTab` | 도메인별 규칙 적용을 위해 현재 탭 URL에 접근 |
-| `scripting` | 웹 페이지에 커스텀 CSS/JS 주입 |
+| `scripting` | 웹 페이지에 커스텀 CSS/JS 적용 |
 | `tabs` | 적용할 도메인 규칙 식별 |
 | `<all_urls>` | 사용자가 선택한 모든 웹사이트에 스타일 적용 |
 
 ## 외부 파일
 
 외부 CSS/JS 파일을 로드하도록 선택한 경우, 해당 파일은 브라우저가 직접 가져옵니다. N-Styler는 이러한 요청을 프록시하거나 캐시하거나 모니터링하지 않습니다.
+
+---
 
 ## 정책 변경
 
