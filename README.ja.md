@@ -39,6 +39,16 @@
 4. **Resourcesタブ**: ページのCSSリソースをトグル
 5. 「Save」ボタンをクリック - 即座に適用！
 
+## スクリーンショット
+
+| CSS編集 | JavaScript編集 | CSSリソースフィルター |
+|--------|-----------------|----------------------|
+| ![CSS Edit](extensions_store/screenshots/01_css_edit.png) | ![JS Edit](extensions_store/screenshots/02_js_edit.png) | ![CSS Resources](extensions_store/screenshots/03_css_resources_filter.png) |
+
+| ルール管理 | 多言語対応 |
+|----------|-----------|
+| ![Manage](extensions_store/screenshots/04_manage.png) | ![Multi-langs](extensions_store/screenshots/05_multi_langs.png) |
+
 ## フォルダ構造
 
 ```

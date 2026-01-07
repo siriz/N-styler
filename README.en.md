@@ -39,6 +39,16 @@ A Chrome extension that allows you to inject custom CSS and JavaScript into web 
 4. **Resources Tab**: Toggle page CSS resources
 5. Click "Save" button - instantly applied!
 
+## Screenshots
+
+| CSS Edit | JavaScript Edit | CSS Resources Filter |
+|---------|-----------------|----------------------|
+| ![CSS Edit](extensions_store/screenshots/01_css_edit.png) | ![JS Edit](extensions_store/screenshots/02_js_edit.png) | ![CSS Resources](extensions_store/screenshots/03_css_resources_filter.png) |
+
+| Manage Rules | Multi-language Support |
+|-------------|----------------------|
+| ![Manage](extensions_store/screenshots/04_manage.png) | ![Multi-langs](extensions_store/screenshots/05_multi_langs.png) |
+
 ## Folder Structure
 
 ```
