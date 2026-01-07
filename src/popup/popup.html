@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N-Styler</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-top">
+        <h1>N-Styler</h1>
+        <select id="langSelect" class="lang-select">
+          <option value="en">EN</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+        </select>
+      </div>
+      <div class="current-domain" id="currentDomain">-</div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="css" data-i18n="tabCss">CSS</button>
+      <button class="tab-btn" data-tab="js" data-i18n="tabJs">JS</button>
+      <button class="tab-btn" data-tab="resources" data-i18n="tabResources">Resources</button>
+      <button class="tab-btn" data-tab="list" data-i18n="tabList">List</button>
+    </div>
+
+    <div class="tab-content">
+      <!-- CSS Tab -->
+      <div class="tab-pane active" id="css-tab">
+        <div class="editor-container">
+          <label for="cssFiles" data-i18n="externalCssFiles">External CSS files (one per line):</label>
+          <textarea id="cssFiles" class="file-list" data-i18n-placeholder="cssFilePlaceholder"></textarea>
+        </div>
+        <div class="editor-container">
+          <label for="cssEditor" data-i18n="cssCode">CSS Code:</label>
+          <textarea id="cssEditor" class="code-editor" data-i18n-placeholder="cssPlaceholder"></textarea>
+        </div>
+        <div class="actions">
+          <button id="saveCss" class="btn btn-primary" data-i18n="save">Save</button>
+          <button id="clearCss" class="btn btn-danger" data-i18n="delete">Delete</button>
+        </div>
+      </div>
+
+      <!-- JS Tab -->
+      <div class="tab-pane" id="js-tab">
+        <div class="editor-container">
+          <label for="jsFiles" data-i18n="externalJsFiles">External JS files (one per line):</label>
+          <textarea id="jsFiles" class="file-list" data-i18n-placeholder="jsFilePlaceholder"></textarea>
+        </div>
+        <div class="editor-container">
+          <label for="jsEditor" data-i18n="jsCode">JavaScript Code:</label>
+          <textarea id="jsEditor" class="code-editor" data-i18n-placeholder="jsPlaceholder"></textarea>
+        </div>
+        <div class="actions">
+          <button id="saveJs" class="btn btn-primary" data-i18n="save">Save</button>
+          <button id="clearJs" class="btn btn-danger" data-i18n="delete">Delete</button>
+        </div>
+      </div>
+
+      <!-- Rules List Tab -->
+      <div class="tab-pane" id="list-tab">
+        <div class="rules-list" id="rulesList">
+          <p class="empty-message" data-i18n="noRules">No saved rules.</p>
+        </div>
+      </div>
+
+      <!-- Page Resources Tab -->
+      <div class="tab-pane" id="resources-tab">
+        <div class="resources-section">
+          <h3 class="section-title"><span data-i18n="cssFiles">CSS Files</span> <span id="cssCount">(0)</span></h3>
+          <div class="resources-list" id="cssResources">
+            <p class="empty-message" data-i18n="loading">Loading...</p>
+          </div>
+        </div>
+        <div class="actions">
+          <button id="refreshResources" class="btn btn-secondary" data-i18n="refresh">Refresh</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="status" id="status"></div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
