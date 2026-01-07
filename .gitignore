@@ -15,8 +15,10 @@ yarn-error.log
 # Build/Distribution
 dist/
 build/
-*.zip
 *.crx
+
+# Release files
+# N-Styler.zip is included for releases
 
 # Dependencies
 package-lock.json
