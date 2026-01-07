@@ -3,15 +3,15 @@
 ## 🇺🇸 English
 
 ### Short Description (max 132 characters)
-Inject custom CSS and JavaScript to any website. Manage styles per domain with external file support.
+Apply custom CSS and JavaScript to any website. Manage styles per domain with external file support.
 
 ### Detailed Description
-**N-Styler** - Custom CSS/JS Injector for Every Website
+**N-Styler** - Custom CSS/JS Applier for Every Website
 
 Customize any website's appearance and behavior with your own CSS and JavaScript code.
 
 **✨ Key Features:**
-• Inject custom CSS and JavaScript per domain
+• Apply custom CSS and JavaScript per domain
 • Support for external CSS/JS file paths
 • View and toggle page's existing CSS resources
 • Real-time code application without page reload
@@ -43,9 +43,9 @@ Open source and free forever.
 任意のウェブサイトにカスタムCSSとJavaScriptを適用。ドメインごとにスタイルを管理。
 
 ### Detailed Description
-**N-Styler** - すべてのウェブサイト用カスタムCSS/JSインジェクター
+**N-Styler** - すべてのウェブサイト用カスタムCSS/JSアプライアー
 
-独自のCSSとJavaScriptコードで、あらゆるウェブサイトの外観と動作をカスタマイズできます。
+独自のCSSとJavaScriptコードで、あらゆるウェブサイトの外観と動作をカスタマイズできます.
 
 **✨ 主な機能:**
 • ドメインごとにカスタムCSS/JSを適用
@@ -66,7 +66,7 @@ N-Stylerはすべてのデータをブラウザ内にローカル保存します
 모든 웹사이트에 커스텀 CSS와 JavaScript를 적용. 도메인별 스타일 관리 및 외부 파일 지원.
 
 ### Detailed Description
-**N-Styler** - 모든 웹사이트를 위한 커스텀 CSS/JS 인젝터
+**N-Styler** - 모든 웹사이트를 위한 커스텀 CSS/JS 어플라이어
 
 나만의 CSS와 JavaScript 코드로 어떤 웹사이트든 외관과 동작을 커스터마이즈하세요.
 
