@@ -72,11 +72,6 @@ N-Styler/
 - 모든 데이터는 브라우저 로컬에 저장됩니다
 - 외부 서버로 데이터가 전송되지 않습니다
 
-## 기여하기
-
-버그 리포트, 기능 제안, 코드 기여를 환영합니다!
-[CONTRIBUTING.md](CONTRIBUTING.md) 파일을 참고해주세요.
-
 ## 라이센스
 
 MIT License © 2026 N-Styler Contributors

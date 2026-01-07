@@ -74,11 +74,6 @@ N-Styler/
 - All data is stored locally in the browser
 - No data is transmitted to external servers
 
-## Contributing
-
-We welcome bug reports, feature suggestions, and code contributions!
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ## License
 
 MIT License © 2026 N-Styler Contributors
